@@ -4967,7 +4967,7 @@ html {
 .m-hero__title {
     margin-bottom: 1rem;
     font-family: 'Lobster', cursive;
-    font-size: 4.3rem;
+    /* font-size: 4.3rem; */
 }
 .m-member-form {
     border-top: 3px solid #e1306c;
