@@ -12,3 +12,7 @@
  * e- element
  * p- pages
  * h- helpers
+ 
+ 
+## BEM
+ * Block__Element_Modifier
