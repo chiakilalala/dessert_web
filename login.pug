@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title pink cake
+        meta(property="og:title" content=" pink cake")
+        meta(property="og:site_name" content=" pink cake")
+        meta(property="og:locale" content="zh_TW")
+        link(href="https://use.fontawesome.com/releases/v5.8.2/css/all.css", rel="stylesheet")
+        link(href="/css/all.css", rel="stylesheet")
+        script(src="https://code.jquery.com/jquery-3.4.1.min.js")
+    body
+     header
+      nav.m-navbar.m-navbar.m-navbar_abs_top.js-m-navbar.is-fixtop
+       .container.px-xl-4
+          h1.h-hide-text
+            a(href="index.html", title="LOGO",style="background-image: url('img/logo_w.png')").e-brand
+              |  pink cake
+          ul.m-navbar__list.js-m-navbar__list
+            li
+              a(href="index.html", title="title").m-navbar__link
+               i.fas.fa-home
+               | Home
+            li
+              a(href="cart.html", title="title").m-navbar__link
+                 i.fas.fa-shopping-cart
+                 | Order
+            li 
+              a(href="login.html", title="title").m-navbar__link
+                 i.fas.fa-user
+                 |  Login
+          .m-navbar__button.js-m-navbar__button
+                .m-navbar__button-open
+                .m-navbar__button-close
+      .m-hero
+        .container.px-0
+         .m-hero__bg
+           .m-hero__content
+            h2.m-hero__title.h-t1
+             | Pink cake
+            p  Treat yourself with a sweet
+                
+     section 
+        .container
+          .row.justify-content-center
+            .col-12.col-md-6.col-xl-4.pt-5 
+              h2.h-hide-text.d-flex.flex-column.align-items-center 
+               a(href="index.html", title="title",style="back").e-brand.e-brand_size_lg 紅帽烘培 
+                
+              .m-member-form.h-shadow.mx-auto
+                h4.m-member-form__title.mb-1 LOGIN
+                label(for="email").m-member-form__label Email Address*
+                .e-form-square.mb-1
+                 i.e-form-square__icon.far.fa-envelope
+                 input(type="email",id="email",name="email").e-form-square__input
+                label.m-member-form__label(for="password") Password*
+                .e-form-square
+                 i.e-form-square__icon.fas.fa-lock
+                 input(type="password",id="password",name="password").e-form-square__input
+                a.h-s1.h-text-success Forget Password？
+                .m-member-form__buttons.mt-3 
+                 a.e-btn.e-btn_muted.e-btn_w_lg(href="register.html")  Sign in
+                 button.e-btn.e-btn_success.e-btn_w_lg Login in     
+     footer.l-footer.pt-5.pb-1
+        .container.px-md-4
+         .row
+          .col-xl-4.mb-3.mb-xl-0
+            h2.mb-1 About Us
+            p 
+              |Curabitur lobortis id lorem id bibndum. Ut id consectetur magna.
+              | Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at.
+          .col-xl-4.mb-3.mb-xl-0
+            h2.mb-1 Contact Us
+            ul.l-footer__connection
+              li Now where
+              li +886 3939 889
+              li service@gmail.com
+          .col-xl-4.mb-3.mb-xl-0
+            .l-footer__company
+              h1.h-hide-text.mb-2
+                a(href="index.html", title="logo",style="background-image: url('img/logo_w@.png')").e-brand.e-brand_size_lg
+              .l-footer__social
+                a(href="#", title="title")
+                 i.e-icon.e-icon_facebook.fab.fa-facebook-square
+                a(href="#", title="title")
+                 i.e-icon.e-icon_twitter.fab.fa-twitter-square
+                a(href="#", title="title")
+                 i.e-icon.e-icon_youtube.fab.fa-youtube-square
+                a(href="#", title="title")
+                 i.e-icon.e-icon_instagram.fab.fa-instagram
+         .row 
+           .l-footer__copyright.mx-auto
+            p.h-text-center   Copyright © pink cake
+             a(href="#", title="title")
+          
+             a(href="#", title="title") 切版練習
+         //-
+           back to top     
+     .e-backtop-btn.js-e-backtop-btn 
+        i.fas.fa-arrow-up
+        span TOP 
+     script(src="js/all.js")               
